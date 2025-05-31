@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Alice",
+    "password": "plainpassword",
+    "hashed_password": "hashed123",
+    "user_id": "U001",
+    "tickets_booked": [
+      {
+        "ticketId": "T001",
+        "userId": "U001",
+        "source": "hanoi",
+        "destination": "osaka",
+        "date_of_travel": "2025-06-01T00:00:00Z",
+        "train": {
+          "train_id": "IX232",
+          "train_no": "12345",
+          "seats": [
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0]
+          ],
+          "station_times": {
+            "hanoi": "13:50:00",
+            "tokyo": "13:55:00",
+            "osaka": "14:10:00"
+          },
+          "stations": [
+            "hanoi",
+            "tokyo",
+            "osaka"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Bob",
+    "password": "anotherpassword",
+    "hashed_password": "hashed456",
+    "user_id": "U002",
+    "tickets_booked": []
+  }
+]
